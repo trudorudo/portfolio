@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portfolio</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" type="text/css" href="css/materialize.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lekton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav style="position: fixed">
+    <div class="nav-wrapper">
+      <a href="#inf" class="title">Kristina Trudorudo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down" style="margin-right: 3rem;">
+        <li class="links"><a href="#inf" style="color:black"> About </a></li>
+        <li class="links"><a href="#projects-block" style="color:black">Portfolio</a></li>
+        <li class="links"><a href="#contact-block" style="color:black">Contacts</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#about-us">About</a></li>
+    <li><a href="#contact-us">Portfolio</a></li>
+    <li><a href="#references">Contacts</a></li>
+
+  </ul>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br>
+        <br>
+
+        <div class="row center">
+          <h5 class="name" id="typing-name" style="font-family: 'Lekton', sans-serif;"></h5>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/cup-desk-drink-434337.jpg"></div>
+    <!-- <h1 class="name" id="typing-name">Kristina Trudorudo | Full Stack Developer </h1> -->
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <img id="img" src="images/UNADJUSTEDNONRAW_thumb_f9.jpg" alt="avatar">
+          </div>
+        </div>
+
+        <div class="col s12 m7" id="inf">
+          <div class="icon-block">
+            <h2 id="about"> About</h2>
+            <p class="text">Full Stack Web Developer with a strong educational background, diverse experience in
+              different fields
+              such as education, communication, marketing and startup developing. Multilingual (Russian as a native
+              speaker, English, Sapnish, French). Well-organized as a self-starter as well as in a collaborative
+              environment. Willingness to take on new projects with clearity and innovation.</p>
+
+
+            <a href="Kristina's Resume 2019.pdf" value="Download!" target="_blank">
+              <button id="resume">Click me for the resume.</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="text"> Education</h2>
+        <h5 class="text"> Bootcamp Certificate: Rutgers University, Jersey City, USA </h5>
+        <p class="text">A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3,
+          Javascript,
+          JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS. </p>
+        <h5 class="text">Bachelor’s Degree: ITMO University, St. Petersburg, Russia</h5>
+        <p class="text">Business Management and Administration.</p>
+      </div>
+      <h4 class="text">Languages</h4>
+      <ul>
+        <li class="text">Russian</li>
+        <li class="text">English</li>
+        <li class="text">Spanish</li>
+        <li class="text">French</li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax">
+      <img src="images/blur-close-up-contemporary-9046.jpg">
+    </div>
+  </div>
+
+
+  <div class="section white" id="projects-block">
+    <h3 id="projects">Projects.</h3>
+    <br>
+    <div class="container">
+
+      <div class="carousel carousel-slider" id="demo-carousel-auto" data-indicators="true">
+        <a class="carousel-item" href="#one!">
+          <div>
+            <div class="row">
+
+              <div class="col s12 m5">
+                <img style="width: 30rem;padding-right: 6rem;" src="images/dorms.png">
+              </div>
+              <div class="col s12 m7">
+                <h5 class="text"> Hudson Dorms Project</h5>
+                <p class="text">
+                  The website was created for Steven's Univesity Student's startup. This is a one-page parallax website
+                  that includes all necessary information, contacts, references and contact form.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item" href="#two!">
+          <div>
+            <div class="row">
+
+              <div class="col s12 m5">
+                <img style="width: 30rem;padding-right: 6rem;" src="images/diy.png">
+              </div>
+              <div class="col s12 m7">
+                <h5 class="text">DIY for Dummies</h5>
+                <p class="text">
+                  Web Site that helps to find how to learn anything. User can simply search the topic that he wants to
+                  learn and DIY site collects all recomendation from YouTube, Reddit and even can find help on Yelp.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item" href="#three!">
+          <div>
+            <div class="row">
+
+              <div class="col s12 m5">
+                <img style="width: 30rem;padding-right: 6rem;" src="images/koodoo.png">
+              </div>
+              <div class="col s12 m7">
+                <h5 class="text">Koodoo_Cat - tech news collector</h5>
+                <p class="text">
+
+                  Koodoo_Cat is an app that collects new tech articles on one website. This app allows users to find
+                  fresh news, save articles that they liked, leave notes and share with there friends on Facebook,
+                  Instagramm, LinkedIn and send by gmail.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/cup-desk-drink-434337.jpg">
+    </div>
+
+  </div>
+
+  <!-- ------------------------------------------------------- -->
+  <!-- contact form -->
+  <!-- ------------------------------------------------------- -->
+  <div class="container" id="contact-block">
+    <div class="section">
+      <h3 id="intouch">Get In Touch.</h3>
+      <div class="row container">
+        <div class="col s12 m6" id="forms">
+          <div class="jumbotron jumbotron-fluid" id="home">
+            <div class="row">
+              <form class="col s12" style=" padding: 1rem;">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                    <label for="textarea2">Textarea</label>
+                  </div>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6" id="contact-form">
+          <div class="jumbotron jumbotron-fluid" id="home">
+            <div class="container" id="contacts">
+              <p class="lead"> <i class="material-icons">edit_location</i> New York, USA</p>
+              <p class="lead"><i class="material-icons">call</i> +1 (908) 494 - 6954</p>
+              <p class="lead"><i class="material-icons">email</i> k.trudorudo@gmail.com</p>
+              <a href="https://github.com/trudorudo" target="blank"> <img src="images/github-logo.png"
+                  style="width:12%;">
+                <br> https://github.com/</a>
+              <br>
+              <br>
+              <a href="https://www.linkedin.com/in/kristina-trudorudo-a4761717a/" target="blank"> <img
+                  src="images/linkedin-logo.png" style="width:12%;">
+                <br> https://www.linkedin.com/</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="row">
+      <div class="col s12 m4">
+        <p id="copyright"> Copyright © 2019</p>
+      </div>
+      <div class="col s12 m8">
+        <p id="follow-me">
+          <a href="https://www.instagram.com/trudorudo/" target="blank"><img class="logo" src="images/inst.png"></a>
+          <a href="https://www.facebook.com/kristina.trudorudo" target="blank"> <img class="logo"
+              src="images/facebook.png"></a>
+          <a href="https://www.linkedin.com/in/kristina-trudorudo-a4761717a/" target="blank"><img class="logo"
+              src="images/linkedin-logo.png"></a>
+          <a href="https://join.skype.com/invite/qoTHz6O1oc9l" target="blank"> <img class="logo"
+              src="images/skype-logo.jpg"></a>
+          <a href="https://github.com/trudorudo" target="blank"> <img class="logo" src="images/github-logo.png"></a>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+  <!--JavaScript at end of body for optimized loading-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="test.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+</body>
+
+</html>

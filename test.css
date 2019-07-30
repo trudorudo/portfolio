@@ -1,0 +1,94 @@
+.nav-wrapper{
+    background-color: #f5f5f5;
+    font-size: 30;
+    
+}
+.title{
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 2rem;
+   
+}
+#nav-mobile{
+    padding-right: 5rem;
+}
+.class{
+    color: black;
+}
+#img {
+    width: 80%; 
+    height: auto;
+    border-radius: 85%;
+    
+    /* margin-left: 8rem;
+    padding-right: 1rem; */
+}
+#inf{
+    font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Sawarabi Mincho', sans-serif;
+
+}
+#edu{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Sawarabi Mincho', sans-serif;
+   
+}
+ #about {
+    font-family: 'Candal', sans-serif;
+    color: #bdbdbd;
+ }
+ #contacts{
+    padding: 3rem;
+ }
+
+#home {
+        background-color: #eeeeee ;
+        /* padding: 2.5rem; */
+    }
+
+
+/* footer */
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e0e0e0;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.1rem;
+ }
+ .logo{
+     width: 6%;
+ }
+ #copyright{
+    font-family: 'Khand', sans-serif;
+ }
+ #intouch{
+    font-family: 'Candal', sans-serif;
+    color: #bdbdbd;
+    margin-left: 5.3rem;
+
+ }
+ #projects{
+    font-family: 'Candal', sans-serif;
+    color: #bdbdbd; 
+    margin-left: 5.3rem;
+ }
+
+ 
+
+ .uni{
+     width: 20%
+ }
+
+ #resume{
+    margin-left: 14rem;
+    margin-top: 10rem;
+ }
+ .text {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+ }
+
